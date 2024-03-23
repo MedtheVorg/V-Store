@@ -1,0 +1,4 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": ["test"] // exclude the test folder from being built when tsc build is called
+}
