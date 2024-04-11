@@ -90,6 +90,30 @@ const checkoutOrderHandler = asyncHandler(async (req: Request<StoreParams, {}, C
                             item_total: {
                                 currency_code: 'USD',
                                 value: String(orderTotal)
+                            },
+                            discount: {
+                                value: '0',
+                                currency_code: 'USD'
+                            },
+                            shipping: {
+                                value: '0',
+                                currency_code: 'USD'
+                            },
+                            handling: {
+                                value: '0',
+                                currency_code: 'USD'
+                            },
+                            insurance: {
+                                value: '0',
+                                currency_code: 'USD'
+                            },
+                            shipping_discount: {
+                                value: '0',
+                                currency_code: 'USD'
+                            },
+                            tax_total: {
+                                value: '0',
+                                currency_code: 'USD'
                             }
                         }
                     },
