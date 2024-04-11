@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
 export const ParticlesBackground = ({ className }: { className?: string }) => {
-  const [init, setInit] = useState(false);
+  // const [init, setInit] = useState(false);
 
   // this should be run only once per application lifetime
   useEffect(() => {
@@ -20,8 +20,6 @@ export const ParticlesBackground = ({ className }: { className?: string }) => {
       //await loadFull(engine);
       await loadSlim(engine);
       //await loadBasic(engine);
-    }).then(() => {
-      setInit(true);
     });
   }, []);
 
