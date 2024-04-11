@@ -4,7 +4,8 @@
     "description": "the backend integration for the VStore dashboard ",
     "main": "src/server.ts",
     "scripts": {
-        "start": "nodemon",
+        "start:dev": "nodemon",
+        "start:prod": "node build/server.js",
         "test": "jest --config jest.config.ts --coverage",
         "__comment__": " the next line removes the build folder before generating a new one",
         "build": "rm -rf build/ && tsc -p tsconfig.build.json"
