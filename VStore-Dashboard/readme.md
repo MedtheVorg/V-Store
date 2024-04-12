@@ -7,15 +7,22 @@
 
 
 <p align="center">
-  <a href="#preview">Preview</a> •
+  <a href="#overview">Overview</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#technologies">Technologies</a> •
+  <a href="#preview">Preview</a> •
   <a href="#license">License</a>
 </p>
 
 <img src="./project_images/preview.png" alt="VStore" style="border-radius:5px"> <br/>
 
+<br/>
+<br/>
+
+# Overview
+  <h3>Vstore is a CMS dashboard made for single product based E-commerce stores  that lets you create  store instances and manage their content in one place. </h3>
+<br/>
 
 # Key Features
 
@@ -95,9 +102,9 @@ $ cd VStore-Dashboard
     # start the development server 
     $ npm run start:dev
 
-  # --------------------------------------------------------------
+  # ---------------------------------------------------------------------------
 
-  # ------------------------------------------------------------
+  # -----------------------------FRONTEND-------------------------------
     # Go into the client folder 
     $ cd client 
 
@@ -118,7 +125,7 @@ $ cd VStore-Dashboard
 
     # start the development server 
     $ npm run dev
-  # --------------------------BACKEND---------------------------
+  # -------------------------------------------------------------------------
 ```
 <br/><br/><br/>
 # Technologies
@@ -129,7 +136,7 @@ $ cd VStore-Dashboard
 
 [![My Skills](https://skillicons.dev/icons?i=ts,tailwind,react,vite,jest)](https://skillicons.dev)
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" width="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px;" title="React Router">
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbranditechture.agency%2Fbrand-logos%2Fwp-content%2Fuploads%2F2022%2F10%2FAxios-1024x819.png&f=1&nofb=1&ipt=f880ff786e86e3e9a4fe0896ba8e9b35f9095f2794808d9be4a94ea94a8a25cc&ipo=images" width="45px" height="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px; " title="Axios">
+<img  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbranditechture.agency%2Fbrand-logos%2Fwp-content%2Fuploads%2F2022%2F10%2FAxios-1024x819.png&f=1&nofb=1&ipt=f880ff786e86e3e9a4fe0896ba8e9b35f9095f2794808d9be4a94ea94a8a25cc&ipo=images" width="45px" height="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px; " title="Axios">
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62c5368c3a321dd181302f80.png&f=1&nofb=1&ipt=d04b2ba22d7b0e7ec3282fcffa526b2a5e41d8a77ea5b6b06ea27493af0e062b&ipo=images" width="60px" height="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px; " title="Redux">
 <img src="https://docs.pmnd.rs/zustand.ico" width="45px" height="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px; " title="Zustand">
 <img src="https://react-hook-form.com/images/logo/react-hook-form-logo-only.png" width="45px" height="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px; " title="React Hook Form">
@@ -140,7 +147,7 @@ $ cd VStore-Dashboard
 ## 🖥backend
 
 [![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express,mongodb)](https://skillicons.dev)
-<img src="https://icon.icepanel.io/Technology/svg/Mongoose.js.svg" width="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px;" title="Mongoose">
+<img  src="https://icon.icepanel.io/Technology/svg/Mongoose.js.svg" width="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px;" title="Mongoose">
 <img src="https://pbs.twimg.com/profile_images/599259952574693376/DMrPoJtc.png" width="45px" style="background-color:#000;border-radius:3px;padding:2px;margin-left:5px;" title="PassportJs">
 <img src="https://zod.dev/logo.svg" width="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px;" title="Zod validator">
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstackjava.com%2Fwp-content%2Fuploads%2F2018%2F03%2Fbcrypt-logo.jpg&f=1&nofb=1&ipt=bc47b7097b7fff23d2de9b2169c827d8596c705bde74ec8b8d948ed9ccd2579f&ipo=images" width="45px" style="background-color:#fff;border-radius:3px;padding:2px;margin-left:5px;" title="Bcrypt">
@@ -150,15 +157,15 @@ $ cd VStore-Dashboard
 
 ## Preview
 <p> - Home Page (Desktop)</p>
-<img src="./project_images/VStore_homepage_desktop.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
+<img style="border: 2px solid black" src="./project_images/VStore_homepage_desktop.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
 <p> - Sign In Page</p>
-<img src="./project_images/Signin_page.png" alt="VStore" style="border-radius:5px"> <br/> <br/><br/>
+<img style="border: 2px solid black" src="./project_images/Signin_page.png" alt="VStore" style="border-radius:5px"> <br/> <br/><br/>
 <p> - Sign Up Page</p>
-<img src="./project_images/Signup_page.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
+<img style="border: 2px solid black" src="./project_images/Signup_page.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
 <p> - Dashboard Page</p>
-<img src="./project_images/dashboard_vstore.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
+<img style="border: 2px solid black" src="./project_images/dashboard_vstore.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
 <p> - Home Page (Mobile)</p>
-<img src="./project_images/VStore_homepage_mobile.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
+<img style="border: 2px solid black" src="./project_images/VStore_homepage_mobile.png" alt="VStore" style="border-radius:5px"> <br/><br/><br/>
 
 
 
