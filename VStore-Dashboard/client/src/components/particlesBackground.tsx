@@ -66,10 +66,6 @@ export const ParticlesBackground = ({ className }: { className?: string }) => {
   );
 
   return (
-    <>
-      (
-      <Particles className={cn(className)} id="tsparticles" options={options} />
-      )
-    </>
+    <Particles className={cn(className)} id="tsparticles" options={options} />
   );
 };
