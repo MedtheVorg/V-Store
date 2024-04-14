@@ -32,7 +32,7 @@ import { useAppSelector } from './redux/hook';
 function App() {
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
       disable: 'phone',
       duration: 1000,
       easing: 'ease-out-cubic',

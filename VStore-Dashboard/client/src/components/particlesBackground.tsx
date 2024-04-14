@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import type { IOptions, RecursivePartial } from '@tsparticles/engine';
 // import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
@@ -8,8 +8,6 @@ import { cn } from '@/lib/utils';
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
 export const ParticlesBackground = ({ className }: { className?: string }) => {
-  const [init, setInit] = useState(false);
-
   // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -20,8 +18,6 @@ export const ParticlesBackground = ({ className }: { className?: string }) => {
       //await loadFull(engine);
       await loadSlim(engine);
       //await loadBasic(engine);
-    }).then(() => {
-      setInit(true);
     });
   }, []);
 
@@ -70,14 +66,6 @@ export const ParticlesBackground = ({ className }: { className?: string }) => {
   );
 
   return (
-    <>
-      {init && (
-        <Particles
-          className={cn(className)}
-          id="tsparticles"
-          options={options}
-        />
-      )}
-    </>
+    <Particles className={cn(className)} id="tsparticles" options={options} />
   );
 };
