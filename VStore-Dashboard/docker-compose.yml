@@ -1,0 +1,13 @@
+version: '3'
+services:
+    react-app:
+        image : react-app
+        container_name: vstore_dashboard_client_c
+        ports:
+            - '5173:5173'
+
+    express-server:
+        image : express-server 
+        container_name: vstore_dashboard_server_c
+        ports:
+            - '4500:4500'

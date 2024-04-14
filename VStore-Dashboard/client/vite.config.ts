@@ -15,4 +15,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // this code configures Vite to listen on all network
+  // interfaces within a Docker container, enabling access to
+  //  the application from outside the container.
+  server: {
+    host: '0.0.0.0',
+    port: 5173,
+  },
 });
