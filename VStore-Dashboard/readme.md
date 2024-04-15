@@ -12,6 +12,7 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#technologies">Technologies</a> •
   <a href="#deployment">Deployment</a> •
+  <a href="#tests">Tests</a> •
   <a href="#preview">Preview</a> •
   <a href="#license">License</a>
 </p>
@@ -180,6 +181,15 @@ public repository : <a href="https://hub.docker.com/r/mohamedlem/vstore/tags" ta
 
 </br>
 </br>
+
+## Tests
+
+Jest was used to write integration tests and  you can run them using the following command : 
+
+```bash
+npm run test
+```
+
 
 ## Preview
 <p> - Home Page (Desktop)</p>
