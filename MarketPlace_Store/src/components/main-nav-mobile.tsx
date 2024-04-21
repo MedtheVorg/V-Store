@@ -46,7 +46,10 @@ export default function MainNavMobile({
                             route.active ? 'text-black' : 'text-neutral-500'
                         )}
                     >
-                        <button onClick={() => setIsOpen(false)}>
+                        <button
+                            onClick={() => setIsOpen(false)}
+                            className=' w-full text-left'
+                        >
                             {route.label}
                         </button>
                     </Link>
