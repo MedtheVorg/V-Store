@@ -10,6 +10,7 @@ import marketPlace_logoV2 from '@/public/images/marketplace_logoV2.png';
 import { UserButton, useAuth } from '@clerk/nextjs';
 import Button from './ui/button';
 import { useState } from 'react';
+import MainNavMobile from './main-nav-mobile';
 
 export default function Navbar() {
     const { userId } = useAuth();
@@ -36,9 +37,19 @@ export default function Navbar() {
                             />
                         </Link>
                         <MainNav />
+                        {isOpen && (
+                            <MainNavMobile
+                                isOpen={isOpen}
+                                setIsOpen={setIsOpen}
+                            />
+                        )}
+
                         <div className='flex gap-x-4'>
                             <div className='block md:hidden'>
-                                <Button className='rounded bg-gray-100  p-2 text-brightBlue transition hover:text-brightBlue/75'>
+                                <Button
+                                    className='rounded bg-gray-100  p-2 text-brightBlue transition hover:text-brightBlue/75'
+                                    onClick={() => setIsOpen(true)}
+                                >
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
                                         className='h-5 w-5'
